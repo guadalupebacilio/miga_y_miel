@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="Miga y Miel, propuesta de panadería artesanal. Descubre nuestro catálogo ilustrado de panes y galletas.">
+    <title>Miga y Miel | Panadería artesanal</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body><a class="skip" href="#contenido">Saltar al contenido</a>
+    <div class="demo">PROYECTO ESCOLAR · Negocio, precios y datos de demostración</div>
+    <header><a class="brand" href="#inicio"><span aria-hidden="true">✳</span> miga y miel<small>PANADERÍA
+                ARTESANAL</small></a><button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menú <span
+                aria-hidden="true">☰</span></button>
+        <nav id="menu" aria-label="Navegación principal"><a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a
+                href="#productos">Productos</a><a href="#galeria">Galería</a><a class="nav-contact"
+                href="#contacto">Hablemos ↗</a></nav>
+    </header>
+    <main id="contenido">
+        <section class="hero wrap" id="inicio">
+            <div class="hero-copy">
+                <p class="eyebrow">HECHO CON CALMA. COMPARTIDO CON CARIÑO.</p>
+                <h1>Los buenos días<br>empiezan con<br><em>un buen pan.</em></h1>
+                <p>Harina, tiempo y un poquito de magia. Panes artesanales para acompañar las pequeñas alegrías de cada
+                    día.</p><a class="button" href="#productos">Explora nuestro pan <span>↗</span></a>
+                <div class="hero-note"><span>✳</span> Un proyecto joven.<br>Una tradición que nos inspira.</div>
+            </div>
+            <div class="hero-art">
+                <div class="stamp">HECHO CON<br><b>mucho<br>corazón</b></div><img src="img/concha.svg" width="600"
+                    height="440" alt="Ilustración de una concha de vainilla dorada">
+                <div class="art-caption"><span>EL ANTOJO DE HOY</span><strong>Concha de vainilla</strong><span>01 /
+                        06</span></div>
+            </div>
+        </section>
+        <div class="ribbon" aria-hidden="true">MASA &nbsp; ✳ &nbsp; TIEMPO &nbsp; ✳ &nbsp; CARIÑO &nbsp; ✳ &nbsp; PAN
+            RECIÉN HECHO &nbsp; ✳ &nbsp; MASA &nbsp; ✳ &nbsp; TIEMPO</div>
+        <section id="nosotros" class="about wrap">
+            <div>
+                <p class="eyebrow">01 / NUESTRA ESENCIA</p>
+                <h2>Lo sencillo,<br><em>bien hecho.</em></h2>
+            </div>
+            <div>
+                <p class="large">Miga y Miel es una propuesta de emprendimiento juvenil que celebra el oficio de hacer
+                    pan y la alegría de compartirlo.</p>
+                <p>Imaginamos una panadería cercana: un lugar para descubrir sabores familiares, hacer una pausa y
+                    llevar algo rico a la mesa. Nuestra identidad reúne colores cálidos, recetas sencillas y una
+                    presentación cuidada.</p>
+                <div class="values"><span>01<br><b>Oficio artesanal</b></span><span>02<br><b>Sabor para
+                            compartir</b></span><span>03<br><b>Trato cercano</b></span></div>
+            </div>
+        </section>
+        <section id="productos" class="catalog">
+            <div class="wrap">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">02 / DEL HORNO A TU MESA</p>
+                        <h2>Encuentra tu <em>favorito.</em></h2>
+                    </div>
+                    <p>Un antojo para cada momento.<br>Catálogo y precios ilustrativos en MXN.</p>
+                </div>
+                <div class="filters" role="group" aria-label="Filtrar productos"><button aria-pressed="true"
+                        data-filter="Todos">Todos</button><button aria-pressed="false" data-filter="Pan dulce">Pan
+                        dulce</button><button aria-pressed="false" data-filter="Pan de mesa">Pan de mesa</button><button
+                        aria-pressed="false" data-filter="Galletas">Galletas</button></div>
+                <p id="filter-status" class="sr-only" aria-live="polite">6 productos</p>
+                <div class="product-grid">
+                    <article class="product" data-category="Pan dulce"><img src="img/concha.svg"
+                            alt="Ilustración de concha de vainilla" width="600" height="440" loading="lazy">
+                        <div class="product-info"><span class="eyebrow">Pan dulce</span>
+                            <h3>Concha de vainilla</h3>
+                            <p>Una cubierta crujiente y un centro suave.</p>
+                            <div class="price"><strong>$18 <small>MXN</small></strong><a href="#contacto"
+                                    data-product="Concha de vainilla"
+                                    aria-label="Consultar por Concha de vainilla">Consultar <span
+                                        aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                    <article class="product" data-category="Pan dulce"><img src="img/croissant.svg"
+                            alt="Ilustración de croissant de mantequilla" width="600" height="440" loading="lazy">
+                        <div class="product-info"><span class="eyebrow">Pan dulce</span>
+                            <h3>Croissant de mantequilla</h3>
+                            <p>Capas doradas para acompañar tu café.</p>
+                            <div class="price"><strong>$32 <small>MXN</small></strong><a href="#contacto"
+                                    data-product="Croissant de mantequilla"
+                                    aria-label="Consultar por Croissant de mantequilla">Consultar <span
+                                        aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                    <article class="product" data-category="Pan de mesa"><img src="img/hogaza.svg"
+                            alt="Ilustración de hogaza artesanal" width="600" height="440" loading="lazy">
+                        <div class="product-info"><span class="eyebrow">Pan de mesa</span>
+                            <h3>Hogaza artesanal</h3>
+                            <p>Corteza rústica y una miga generosa.</p>
+                            <div class="price"><strong>$65 <small>MXN</small></strong><a href="#contacto"
+                                    data-product="Hogaza artesanal"
+                                    aria-label="Consultar por Hogaza artesanal">Consultar <span
+                                        aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                    <article class="product" data-category="Pan dulce"><img src="img/rol.svg"
+                            alt="Ilustración de rol de canela" width="600" height="440" loading="lazy">
+                        <div class="product-info"><span class="eyebrow">Pan dulce</span>
+                            <h3>Rol de canela</h3>
+                            <p>Espirales de canela con un toque de glaseado.</p>
+                            <div class="price"><strong>$35 <small>MXN</small></strong><a href="#contacto"
+                                    data-product="Rol de canela" aria-label="Consultar por Rol de canela">Consultar
+                                    <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                    <article class="product" data-category="Galletas"><img src="img/galletas.svg"
+                            alt="Ilustración de galletas de chocolate" width="600" height="440" loading="lazy">
+                        <div class="product-info"><span class="eyebrow">Galletas</span>
+                            <h3>Galletas de chocolate</h3>
+                            <p>Seis pequeñas razones para compartir.</p>
+                            <div class="price"><strong>$48 <small>MXN</small></strong><a href="#contacto"
+                                    data-product="Galletas de chocolate"
+                                    aria-label="Consultar por Galletas de chocolate">Consultar <span
+                                        aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                    <article class="product" data-category="Pan de mesa"><img src="img/baguette.svg"
+                            alt="Ilustración de baguette clásica" width="600" height="440" loading="lazy">
+                        <div class="product-info"><span class="eyebrow">Pan de mesa</span>
+                            <h3>Baguette clásica</h3>
+                            <p>Crujiente por fuera, ligera por dentro.</p>
+                            <div class="price"><strong>$28 <small>MXN</small></strong><a href="#contacto"
+                                    data-product="Baguette clásica"
+                                    aria-label="Consultar por Baguette clásica">Consultar <span
+                                        aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="galeria" class="wrap gallery-section">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">03 / UN POCO DE INSPIRACIÓN</p>
+                    <h2>El arte de <em>hornear.</em></h2>
+                </div>
+                <p>Una colección de ilustraciones originales<br>creadas para este proyecto.</p>
+            </div>
+            <div class="gallery">
+                <figure><img src="img/concha.svg" alt="Ilustración de concha de vainilla" width="600" height="440"
+                        loading="lazy">
+                    <figcaption>Concha de vainilla</figcaption>
+                </figure>
+                <figure><img src="img/croissant.svg" alt="Ilustración de croissant de mantequilla" width="600"
+                        height="440" loading="lazy">
+                    <figcaption>Croissant de mantequilla</figcaption>
+                </figure>
+                <figure><img src="img/hogaza.svg" alt="Ilustración de hogaza artesanal" width="600" height="440"
+                        loading="lazy">
+                    <figcaption>Hogaza artesanal</figcaption>
+                </figure>
+                <figure><img src="img/rol.svg" alt="Ilustración de rol de canela" width="600" height="440"
+                        loading="lazy">
+                    <figcaption>Rol de canela</figcaption>
+                </figure>
+                <figure><img src="img/galletas.svg" alt="Ilustración de galletas de chocolate" width="600" height="440"
+                        loading="lazy">
+                    <figcaption>Galletas de chocolate</figcaption>
+                </figure>
+                <figure><img src="img/baguette.svg" alt="Ilustración de baguette clásica" width="600" height="440"
+                        loading="lazy">
+                    <figcaption>Baguette clásica</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="contacto" class="contact">
+            <div class="wrap contact-grid">
+                <div>
+                    <p class="eyebrow">04 / CONVERSEMOS</p>
+                    <h2>Algo rico<br>empieza con<br><em>un hola.</em></h2>
+                    <p>Cuéntanos qué pan te gustaría probar o qué tienes en mente para compartir.</p>
+                    <dl>
+                        <dt>Correo de ejemplo</dt>
+                        <dd>hola@migaymiel.example</dd>
+                        <dt>Ubicación propuesta</dt>
+                        <dd>Tu comunidad, México</dd>
+                        <dt>Horario propuesto</dt>
+                        <dd>Lunes a sábado · 8:00 a 19:00</dd>
+                    </dl>
+                    <p class="small">Datos ficticios del proyecto escolar. No representan un establecimiento abierto al
+                        público.</p>
+                </div>
+                <form id="contact-form">
+                    <h3>Déjanos tu mensaje</h3>
+                    <p>Formulario de demostración: valida los campos, pero no envía ni guarda datos.</p><label
+                        for="name">Tu nombre</label><input id="name" name="nombre" autocomplete="name" required
+                        maxlength="80" placeholder="¿Cómo te llamas?"><label for="email">Correo
+                        electrónico</label><input type="email" id="email" name="correo" autocomplete="email" required
+                        placeholder="nombre@correo.com"><label for="interest">Me interesa</label><select id="interest"
+                        name="interes">
+                        <option>Consulta general</option>Concha de vainilla</option>
+                        <option>Croissant de mantequilla</option>
+                        <option>Hogaza artesanal</option>
+                        <option>Rol de canela</option>
+                        <option>Galletas de chocolate</option>
+                        <option>Baguette clásica</option>
+                    </select><label for="message">Tu mensaje</label><textarea id="message" name="mensaje" rows="4"
+                        required minlength="10" maxlength="1000"
+                        placeholder="Escribe al menos 10 caracteres"></textarea><button class="button"
+                        type="submit">Probar formulario <span>↗</span></button>
+                    <p id="form-status" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="wrap"><a class="brand" href="#inicio">✳ miga y miel</a>
+        <p>Hecho para aprender. Diseñado para compartir.<br>Proyecto escolar · CBTIS 107 · 2026</p><a
+            href="#inicio">Volver al inicio ↑</a>
+    </footer>
+</body>
+
+</html>
